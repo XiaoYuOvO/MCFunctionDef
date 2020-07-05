@@ -1,0 +1,22 @@
+Test(a){
+   Test2(&a)
+   say &a
+   execute as @a at @s run title @s title {"text":"&a"}
+   Test2(&a)
+}
+Dialog(sender,to,msg){
+    tellraw &to [{"text":"[&sender]","color":"gold"},{"text":"&msg","color":"reset"}]
+}
+Test2(b){
+   say wow &b
+   execute as @a at @s run title @s title {"text":"&b"}
+}
+Test2(b,a){
+   say wow &b
+   execute as @a at @s run title @s title {"text":"&b"}
+}
+
+
+Tp(target,y){
+    tp &target 100 &y 100
+}

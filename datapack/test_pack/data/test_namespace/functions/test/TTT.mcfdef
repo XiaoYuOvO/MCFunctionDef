@@ -1,0 +1,9 @@
+
+TTT(){
+    if(score Test ttt > 10 EnumNum && predicate test:rain){
+        if(test){
+         clear @a
+        }
+    }
+    effect @a give night_vision 999999 3 true
+}

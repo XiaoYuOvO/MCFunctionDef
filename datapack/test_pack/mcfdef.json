@@ -1,0 +1,14 @@
+{
+  "compilerVersion": 1,
+  "outDir": {
+    "path": "H:\\1.16Server\\world\\datapacks"
+  },
+  "srcDir": {
+    "path": "H:\\IDEAProjects\\MCFunctionDef\\datapack\\test_pack"
+  },
+  "compileArgs": {
+    "deleteOldFiles": "true",
+    "pend_if": "newFile",
+    "pend_function": "defFirst"
+  }
+}
